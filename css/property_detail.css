@@ -1,0 +1,177 @@
+.carousel img {
+  height: 320px;
+  object-fit: cover;
+}
+
+.breadcrumb {
+  margin-bottom: 0px;
+}
+
+.star-container i {
+  color: gold;
+  border: black;
+  font-size: 17px;
+  margin-right: 6px;
+}
+
+.interested-container {
+  text-align: center;
+  padding: 8px 16px;
+}
+
+.interested-container i {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.content-container {
+  top: -40px;
+}
+
+.property-name {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+@media (max-width: 768px) {
+  .property-name {
+    font-size: 30px;
+  }
+}
+
+.property-address {
+  color: #777777;
+  font-size: 18px;
+}
+
+.property-gender img {
+  max-width: 50px;
+  width: 100%;
+}
+
+.rent-container {
+  display: flex;
+  align-items: center;
+}
+
+.rent {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.rent-unit {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.button-container .btn {
+  float: right;
+  font-size: 14px;
+  width: 160px;
+  border-radius: 2px;
+}
+
+.property-amenities,
+.property-rating {
+  background-color: #fcfaf7;
+  margin: 8px 0px;
+}
+
+@media (max-width: 768px) {
+  .property-amenities .row > div {
+    padding-bottom: 24px;
+  }
+}
+
+.amenity-container {
+  margin: 8px 0px;
+}
+
+.amenity-container img {
+  height: 20px;
+  margin-top: -4px;
+  margin-right: 4px;
+}
+
+.description {
+  font-size: 17px;
+}
+
+.rating-criteria {
+  padding: 10px;
+}
+
+.rating-criteria-star-container i {
+  color: #66c2bd;
+}
+
+.rating-circle {
+  background-color: #66c2bd;
+  color: #ffffff;
+  text-align: center;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .rating-circle {
+    margin: auto;
+  }
+  .space {
+    padding: 20px;
+  }
+}
+
+.total-rating {
+  font-size: 40px;
+  padding-top: 36px;
+}
+
+.testimonial-block {
+  background-color: #fcfaf7;
+  padding: 0px 100px 24px;
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .testimonial-block {
+    padding: 0px 24px 24px;
+  }
+}
+
+.testimonial-img-container {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.testimonial-img {
+  width: 130px;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+}
+
+.testimonial-text {
+  color: #777777;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-text i {
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.testimonial-text p {
+  text-indent: 20px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+}
