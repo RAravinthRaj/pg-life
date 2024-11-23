@@ -1,0 +1,150 @@
+.filter-bar > div {
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.filter-bar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: solid 1px #646870;
+  padding: 5px;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .filter-bar img {
+    display: block;
+    margin: 0px auto 4px;
+  }
+}
+
+.property-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin: 25px 20px;
+  padding: 25px 10px;
+}
+
+.property-card:focus,
+.property-card:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.16), 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+.image-container {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    padding-bottom: 12px;
+  }
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.star-container i {
+  color: gold;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+.interested-container {
+  text-align: center;
+  padding: 8px 16px;
+}
+
+.interested-container i {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.interested-text {
+  font-size: 10px;
+}
+
+.property-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.property-address {
+  font-size: 15px;
+}
+
+.property-gender img {
+  max-width: 40px;
+  width: 100%;
+}
+
+.rent-container {
+  display: flex;
+  align-items: center;
+}
+
+.rent {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rent-unit {
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.button-container .btn {
+  float: right;
+  font-size: 14px;
+  width: 140px;
+  border-radius: 2px;
+}
+
+.no-property-container {
+  text-align: center;
+  padding: 80px;
+}
+
+@media (max-width: 768px) {
+  .no-property-container {
+    padding: 140px 80px;
+  }
+}
+
+/*Filter modal*/
+#filter-modal .modal-dialog {
+  max-width: 600px;
+}
+
+#filter-modal .modal-body h5 {
+  color: #777777;
+}
+
+#filter-modal .modal-body hr {
+  margin: 4px 0px;
+}
+
+#filter-modal .modal-body button {
+  font-size: 14px;
+  margin: 16px;
+  width: 100px;
+}
+
+#filter-modal .modal-body .btn-active {
+  color: #ffffff;
+  background-color: #343a40;
+}
+
+#filter-modal .modal-body button i {
+  margin-right: 8px;
+}
+
+#filter-modal .modal-footer button {
+  width: 120px;
+}
